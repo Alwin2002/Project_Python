@@ -46,7 +46,7 @@ def batch_generator(filelist,n_classes,batch_size):
 
             X.append(img)
             Y.append(seg)
-        yield np.array(X),np.array(Y)
+     yield np.array(X),np.array(Y)
 
 
 def get_segmented_img(img, n_classes):
